@@ -1,0 +1,89 @@
+.titleGame{
+    font-size: 80px;
+    color: rgb(43, 187, 231);
+}
+
+canvas {
+    /* background: rgba(0, 255, 170, 0.171); */
+    height: 640px;
+}
+
+.textPlay{
+    position: absolute;
+    font-size: 250%;
+    color: white;
+    width: 85%;
+}
+
+.options{
+    width: 100%;
+    height: 65%;
+    margin-top: -50px;
+}
+
+#bt_control{
+    left: 13%;
+}
+#bt_credit{
+    left: 73%;
+}
+#bt_play{
+    left: 43%;
+}
+
+.bt_home{
+    display: block;
+    position: absolute;
+    width: 16%;
+    height: 30%;
+    top: 40% !important;
+}
+
+#svgMain{
+    display: block;
+    position: absolute;
+}
+
+#character{
+    display: block;
+    position: absolute;
+    height: 1506px;
+}
+
+.choose{
+    background: rgba(0, 81, 255, 0.171);
+    border: 2px solid #000000;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#choose1{ left: 150px; top: 160px; }
+#choose2{ left: 450px; top: 160px; }
+#choose3{ left: 750px; top: 160px; }
+#choose4{ left: 150px; top: 380px; }
+#choose5{ left: 450px; top: 380px; }
+#choose6{ left: 750px; top: 380px; }
+
+.background{
+    border: 4px double #000000;
+    display: block;
+    position: absolute;
+    height: 86%;
+    width: 100%;
+}
+
+.titleChooseChar{
+    border: 4px double #000000;
+    display: block;
+    position: absolute;
+    width: 72%;
+    height: 95px;
+    left: 13.5%; 
+    top:5%;
+    font-size: 60px;
+    color: white;
+    padding-left: 80px;
+    background: rgba(108, 0, 170, 0.377);
+}
